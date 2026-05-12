@@ -22,7 +22,6 @@ fruits = {
 }
 
 fruit = input("Fruit: ").strip().lower()
-for i in fruits:
-    if fruit in fruits:
-        print("Calories:", fruits[fruit])
-        break
+if fruit in fruits:
+    print("Calories:", fruits[fruit])
+    
